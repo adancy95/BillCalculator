@@ -1,0 +1,13 @@
+body{
+  background-image: url(../img/Bill\ Spliter.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  width:100%;
+  background-size: cover;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
