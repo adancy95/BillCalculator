@@ -12,15 +12,27 @@
     <h1>BILL SPLITTER & TIP CALCULATOR</h1>
     <h3>The site that does the math for you </h3>
   </header>
-  <form>
-    Bill Amount: <input type="text" name="billAmt">
-    Tip Amount: <input type="text" name="tipAmt">
-    Total: <input type="text" name="total">
-    Tip %: <input type="number" name="tipPercent">
-    Amount of People: <input type="number" name="AmtOfPeople">
-    Total Per Person: <input type="text" name="AmtPerPerson">
+  <form class="billCalc">
+   
+      <label for="billAmt">Bill Amount: <input type="text" name="billAmt"></label>
+      
+      <label for="tipAmt">Tip Amount:<input type="text" name="tipAmt"></label>
+      
+      <label for="total">Bill Total: <input type="text" name="total"></label>
+     
+      <label for="tipPercent">Tip %: <input type="number" name="tipPercent"></label>
+     
+      <label for="AmtOfPeople">Amount of People:<input type="number" name="AmtOfPeople"></label>
+      
 
+      <label for="AmtPerPerson">Total Per Person:<input type="text" name="AmtPerPerson"></label>
+      
+      <input type="submit" value="Calculate Bill">
+   
   </form>
+
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/calculator.js"></script>
   
 </body>
 </html>
