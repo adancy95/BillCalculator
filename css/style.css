@@ -6,8 +6,9 @@ body{
   background-size: cover;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
+label {
+  display: block;
+  margin-bottom: 20px;
 }
+
+
